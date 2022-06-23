@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/vitaliilatka/webpack-repo/static/js/main.39ed6cd2.js",
+    "index.html": "/vitaliilatka/webpack-repo/index.html",
+    "main.39ed6cd2.js.map": "/vitaliilatka/webpack-repo/static/js/main.39ed6cd2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.39ed6cd2.js"
+  ]
+}
