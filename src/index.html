@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>webpack-test</title>
+</head>
+<body>
+    <button id="button1" type="button" class="button-primary" data-modal-open>
+        Заказать услугу
+    </button>
+    <form action="#" class="form" id="form" method="post">
+        <input type="text" name="name" placeholder="Имя" id="name" class="form__input" required>
+        <input type="email" name="e-mail" placeholder="E-mail" id="e-mail" class="form__input" required>
+        <input type="tel" name="tel" placeholder="Телефон" id="phone" class="form__input" required>
+        <br>
+        <label class="form__radio">
+            <input type="radio" name="order" value="electroepilation" checked>
+            Электроэпиляция
+        </label>
+        <label class="form__radio">
+            <input type="radio" name="order" value="shugaring">
+            Шугаринг
+        </label>
+        <label class="form__radio">
+            <input type="radio" name="order" value="vosk">
+            Эпиляция воском
+        </label>
+        <br>
+        <button name="submit_button" class="button__submit" id="form__btn" submit>
+            Заказать услугу
+        </button>
+    </form>
+</body>
+</html>
